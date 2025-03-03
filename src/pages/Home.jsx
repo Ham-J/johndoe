@@ -3,10 +3,7 @@ import React from "react";
 import Foot from "../components/Foot";
 import { Container, ProgressBar, Row, Col} from "react-bootstrap";
 import Navbar from "../components/Navbar";
-import Example from "../components/Modal";
-
-
-
+import Mymodal from "../components/Modal";
 const Home = ()=>{
 
  return(
@@ -14,8 +11,8 @@ const Home = ()=>{
      <Navbar></Navbar>
         <Container className="fond" fluid>
             <h1 className="pb-4">Bonjour, je suis John Doe</h1>
-            <h2 className="pb-4">Développeur web full stack</h2>
-            <Example></Example> 
+            <h2 className="pb-4">Développeur web Full stack</h2>  
+            <Mymodal></Mymodal> 
         </Container>
         <Container className="shadow-lg mb-5 mt-5 bg-white rounded" >
             <Row className="justify-content-center">

@@ -55,6 +55,7 @@ nav .title {
    margin-right: 2em;
    flex-direction: column;
    justify-content: space-between;
+   
    width: 2rem;
    height: 1rem;
   }
@@ -69,6 +70,7 @@ nav .title {
   @media (max-width: 480px) {
    nav .menu {
     display: flex;
+    margin-top: 0.5em;
    }
   
    nav {

@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    font-family: "Nunito Sans", serif;
+}
+
+img{
+    width: 100%;;
+}
+.fond{
+    background-image: url('./img/hero-bg.jpg');
+    width: 100%;
+    height: 60em;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    text-align: center;
+}
+.btn:hover{
+    opacity: 0.5;
+}
+    
+.card:hover{
+    background-color: #efefef;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.col-sm{
+    margin-bottom: 4em;
+}
+.border_title{
+    border: 2px solid rgb(0,0,252);
+    border-radius: 2%;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.line_title{
+    border: 2px solid rgb(0,0,252);
+    border-radius: 2%;
+    margin-bottom: 1em;
+}
+.accordion{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.shadow-lg{
+    width: 85%;
+    padding: 2em;
+}
+.social{
+    color: grey;
+    margin-right: 1em;
+    font-size: 2em;
+}
+.social:hover{
+    color: white;
+}
+.text-reset:hover{
+    font-weight: bolder;
+}
+    
+    
+    
